@@ -15,6 +15,8 @@
 		2174B90A254A38D8008AEBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2174B908254A38D8008AEBC8 /* LaunchScreen.storyboard */; };
 		2174B915254A38D8008AEBC8 /* MVVMExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174B914254A38D8008AEBC8 /* MVVMExampleTests.swift */; };
 		2174B920254A38D8008AEBC8 /* MVVMExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174B91F254A38D8008AEBC8 /* MVVMExampleUITests.swift */; };
+		2174B931254A3983008AEBC8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174B930254A3983008AEBC8 /* Model.swift */; };
+		2174B936254A39A5008AEBC8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174B935254A39A5008AEBC8 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2174B91B254A38D8008AEBC8 /* MVVMExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2174B91F254A38D8008AEBC8 /* MVVMExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExampleUITests.swift; sourceTree = "<group>"; };
 		2174B921254A38D8008AEBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2174B930254A3983008AEBC8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2174B935254A39A5008AEBC8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				2174B906254A38D8008AEBC8 /* Assets.xcassets */,
 				2174B908254A38D8008AEBC8 /* LaunchScreen.storyboard */,
 				2174B90B254A38D8008AEBC8 /* Info.plist */,
+				2174B930254A3983008AEBC8 /* Model.swift */,
+				2174B935254A39A5008AEBC8 /* ViewModel.swift */,
 			);
 			path = MVVMExample;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2174B936254A39A5008AEBC8 /* ViewModel.swift in Sources */,
 				2174B902254A38D6008AEBC8 /* ViewController.swift in Sources */,
 				2174B8FE254A38D6008AEBC8 /* AppDelegate.swift in Sources */,
 				2174B900254A38D6008AEBC8 /* SceneDelegate.swift in Sources */,
+				2174B931254A3983008AEBC8 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
