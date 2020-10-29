@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var userNameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var loginButton: UIButton!
     
     
     
@@ -20,6 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.messageLabel.isHidden = true
+        loginButton.addTarget(self, action: #selector(loginUser), for: .touchUpInside)
         // Do any additional setup after loading the view.
     }
     
